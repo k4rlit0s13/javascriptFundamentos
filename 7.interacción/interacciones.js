@@ -68,11 +68,13 @@ alert( isBoss ); // true si se pulsa OK
 
 // Cubrimos 3 funciones específicas del navegador para interactuar con los usuarios:
 
-alert
+alert //print
 //     muestra un mensaje.
-prompt
+
+prompt //input
 //     muestra un mensaje pidiendo al usuario que introduzca un texto. Retorna el texto o, si se hace clic en CANCELAR o se presiona Esc, retorna null.
-confirm
+
+confirm //tru,false input
 //     muestra un mensaje y espera a que el usuario pulse “OK” o “CANCELAR”. Retorna true si se presiona OK y false si se presiona CANCEL/Esc. 
 
 // Todos estos métodos son modales: detienen la ejecución del script y no permiten que el usuario interactúe con el resto de la página hasta que la ventana se haya cerrado.
